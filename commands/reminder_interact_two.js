@@ -1,0 +1,4 @@
+module.exports = {
+type: "interactionCreate",
+code: `$if[$customID==reminder-modal;$try[$wait[$multi[1000;$sum[$input[reminder-seconds];$multi[60;$input[reminder-minutes]];$multi[3600;$input[reminder-hours]];$multi[86400;$input[reminder-days]]]]] $sendMessage[$dmChannelID[$authorID];$title[ KieranTheDev] $description[Wake up <@$authorID> Reminder: $input[reminder-msg] | MSG-LINK:https://discord.com/channels/$guildID/$channelID/$messageID] $color[#3498db]];$sendMessage[$channelID;$author[$username;$userAvatar[$authorID]] $title[ KieranTheDev] $description[Expected Valid Numbers In Days, Hours, Minutes and Seconds Input!] $color[#3498db]]]]`
+}

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "forge-music": "^0.0.1-fixklZClzibqwixa",
+    "forgedb": "^1.0.0",
+    "forgescript": "^1.2.0"
+  }
+}
