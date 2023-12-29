@@ -1,5 +1,7 @@
 const { ForgeClient } = require("forgescript")
 const { ForgeDB } = require("forgedb")
+require('dotenv').config();
+const discordToken = process.env.DISCORD_TOKEN;
 
 // Client initialization
 const client = new ForgeClient({
