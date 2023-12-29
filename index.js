@@ -78,4 +78,4 @@ client.applicationCommands.load("slashes")
 
 
 // Your bot token
-client.login("MTE4Nzc0NjU4MzU3NjU3NjA3Mg.GHKg_3.5yLQ0IVR0qDl2unqb36hB8QScp2twePSzHo0do");
+client.login(discordToken);
